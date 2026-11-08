@@ -4,5 +4,18 @@
   "createdAt": "2026-11-08T20:31:55.498Z",
   "filename": "4d4a59e5-6f04-446c-8669-6c2db7f9e3cf.json",
   "geminiStarted": false,
-  "messages": []
+  "messages": [
+    {
+      "id": "8f643f09-dd30-4d30-acce-155d8d579aba",
+      "role": "user",
+      "content": "Build vpn apk with link for download",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-08T20:32:23.280Z",
+      "sender": "ios",
+      "is_cancelled": false
+    }
+  ]
 }
