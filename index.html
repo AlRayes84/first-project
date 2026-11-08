@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VPN App – Download</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      padding: 24px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(16px);
+      border-radius: 24px;
+      padding: 48px 40px;
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+    }
+
+    .shield-icon {
+      font-size: 72px;
+      margin-bottom: 20px;
+      display: block;
+      filter: drop-shadow(0 0 18px #7c5cfc);
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 1rem;
+      margin-bottom: 36px;
+      line-height: 1.6;
+    }
+
+    .features {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 36px;
+      text-align: left;
+    }
+
+    .feature {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.95rem;
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    .feature-icon {
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+
+    .btn-download {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: linear-gradient(90deg, #7c5cfc, #5b8dee);
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 600;
+      padding: 16px 36px;
+      border-radius: 50px;
+      width: 100%;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 8px 30px rgba(124, 92, 252, 0.45);
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-download:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 40px rgba(124, 92, 252, 0.6);
+    }
+
+    .btn-download:active {
+      transform: translateY(0);
+    }
+
+    .meta {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.4);
+    }
+
+    .meta span {
+      margin: 0 6px;
+    }
+
+    footer {
+      margin-top: 32px;
+      font-size: 0.75rem;
+      color: rgba(255, 255, 255, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <span class="shield-icon">🛡️</span>
+    <h1>Secure VPN</h1>
+    <p class="subtitle">Fast, private, and encrypted.<br/>Protect your connection with one tap.</p>
+
+    <div class="features">
+      <div class="feature">
+        <span class="feature-icon">🔒</span>
+        <span>256-bit AES Encryption</span>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">⚡</span>
+        <span>High-Speed Servers Worldwide</span>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">🌍</span>
+        <span>No Logs, No Tracking</span>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">📱</span>
+        <span>Android 6.0+ Supported</span>
+      </div>
+    </div>
+
+    <!-- ✏️ Replace the href below with your actual APK download URL -->
+    <a class="btn-download" href="YOUR_APK_DOWNLOAD_URL_HERE" download>
+      ⬇️ Download APK
+    </a>
+
+    <p class="meta">
+      <span>v1.0.0</span>·<span>~15 MB</span>·<span>Android</span>
+    </p>
+  </div>
+
+  <footer>© 2026 Secure VPN. All rights reserved.</footer>
+
+</body>
+</html>
